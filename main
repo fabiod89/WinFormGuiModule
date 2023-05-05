@@ -1,0 +1,19 @@
+Import-Module -Name ".\WinFormsModule.ps1"
+
+#Main
+$window1 = Form -title "First WinForm" -width 500 -height 500
+
+$firstNameLabel = Label -text "Firstname" -X 100 -Y 80
+$LastNameLabel = Label -text "Lastname" -X 100 -Y 180
+
+$firstNameTextBox = TextBox -X 100 -Y 120
+$lastNameTextbox = TextBox -X 100 -Y 220
+
+$ClickMeButton = Button -text "Click Me!" -X 100 -Y 280 -width 100 -height 80
+
+$ClickMeButton.add_click({
+    [System.Windows.Forms.MessageBox]::Show("Hello World. " + ($firstNameTextBox.Text) + " " + ($lastNameTextbox.Text) , "My Dialog Box")
+})
+
+
+DisplayForm($window1)

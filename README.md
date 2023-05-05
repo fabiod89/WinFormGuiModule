@@ -1,6 +1,4 @@
-Okay, I see. Here is the adjusted README for your code:
 
-```markdown
 # PowerShell Form Generator
 
 This is a simple PowerShell script that allows you to create Windows Forms with labels, textboxes and buttons.

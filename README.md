@@ -15,10 +15,10 @@ git clone https://github.com/your-username/your-repo-name.git
 
 ## Usage
 
-To run the script, open PowerShell and navigate to the folder where the script is located. Then, execute the script with the following command:
+To run the script, open PowerShell and navigate to the folder where the script is located. Then, import the module using the following command.
 
 ```bash
-.\form-generator.ps1
+Import-Module -Name ".\WinFormsModule.ps1"
 ```
 
 The script will prompt you to enter some parameters for your form, such as the title, width and height. You can also use the default values by pressing Enter.

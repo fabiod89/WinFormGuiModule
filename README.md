@@ -54,7 +54,6 @@ DisplayForm($window1)
 ```
 
 Here is an example of a form created by the main script with the default parameters:
-
-[![Example form](example.png)]([https://github.com/fabiod89/WinFormGuiModule/blob/main/example.png](https://github.com/fabiod89/WinFormGuiModule/blob/main/example.PNG))
+https://github.com/fabiod89/WinFormGuiModule/blob/main/example.PNG 
 
 

@@ -5,9 +5,9 @@ Add-Type -AssemblyName System.Windows.Forms
 function Form{
     #Parameters
     param(
-    [Parameter (Mandatory = $false)] [String]$title="Title",
-    [Parameter (Mandatory = $false)] [String]$width=10,
-    [Parameter (Mandatory = $false)] [String]$height=10
+        $title="Title",
+        $width=10,
+        $height=10
     )
     # Initialize Object
     $Form = New-Object system.Windows.Forms.Form

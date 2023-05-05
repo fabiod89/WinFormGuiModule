@@ -55,6 +55,6 @@ DisplayForm($window1)
 
 Here is an example of a form created by the main script with the default parameters:
 
-![Example form](example-form.png)
+![Example form](example.png)
 
 
